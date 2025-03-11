@@ -1,0 +1,9 @@
+{
+  "name": "remote-checkout-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/remote/checkout-e2e/src",
+  "implicitDependencies": ["remote-checkout"],
+  "// targets": "to see all targets run: nx show project remote-checkout-e2e --web",
+  "targets": {}
+}
