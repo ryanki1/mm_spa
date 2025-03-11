@@ -6,7 +6,7 @@ $footer-height: 100px;
   right: 0;
   width: 400px;
   height: calc(100% - $footer-height);
-  background-color: saddlebrown;
+  background-color: var(--basket-background-color, saddlebrown);
 }
 
 .footer {
@@ -15,7 +15,7 @@ $footer-height: 100px;
   bottom: 0;
   width: 100%;
   height: $footer-height;
-  background-color: rosybrown;
+  background-color: var(--footer-background-color, rosybrown);
 }
 
 .component-title {
