@@ -1,0 +1,26 @@
+$footer-height: 100px;
+
+.checkout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: calc(100% - $footer-height);
+  background-color: saddlebrown;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  background-color: rosybrown;
+}
+
+.component-title {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
